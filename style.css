@@ -212,6 +212,7 @@ footer {
 }
 #footer-btn{
     display: none;
+    margin: 0 auto;
 }
 
 .footer-content {
