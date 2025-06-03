@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 #visibility {
-  display: none;
+  display: block;
 }
 
 body {
@@ -72,6 +72,7 @@ body {
 }
 .section-two-main {
   display: flex;
+  gap: 54px;
   flex-direction: column;
   background-color: #01aefe;
   background-image: url(https://pros.com/wp-content/uploads/2025/05/ai-agent-background.webp);
@@ -328,7 +329,7 @@ body {
   justify-content: center;
 }
 footer {
-  position: fixed;
+  /* position: fixed; */
   background-color: #04314b;
   bottom: 0;
   right: 0;
