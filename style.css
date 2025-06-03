@@ -328,6 +328,145 @@ body {
   align-items: center;
   justify-content: center;
 }
+.demo-book-main{
+  padding: 0 21px;
+}
+.demo-book-inner{
+  display: flex;
+  flex-direction: column;
+  padding: 42px 0;
+  gap: 40px;
+}
+.demo-book-title{
+  font-family: "Franklin-bolder";
+  font-size: 38px;
+  line-height: 38px;
+  letter-spacing: -0.76px;
+  color: #04314B;
+}
+.demo-book-content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.demo-book-content p{
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.63px;
+  color: #034D73;
+  font-family: "Franklin-Regular" ;
+}
+.demo-btn{
+  border-radius: 21px;
+  border: none;
+  background: radial-gradient(82.18% 100% at 50% 0%, #0D7CB6 0%, #0D7CB6 100%);
+  width: 100%;
+  padding: 0 21px;
+  font-size: 16px;
+  line-height: 42px;
+  letter-spacing: -0.16px;
+  color: #FFF;
+  white-space: nowrap;
+  font-family: "Franklin-medium";
+}
+.margin-auto{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 1220px;
+  
+}
+.resource-card-heading {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 42px 21px 0;
+  margin-bottom: 21px;
+}
+.resource-card-heading h2 {
+  font-family: "Franklin-bolder";
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.28px;
+  color: #04314b;
+}
+.resource-card-heading span {
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  font-size: 16px;
+  font-family: "Franklin-Regular";
+  line-height: 21px;
+  letter-spacing: -0.16px;
+  color: #04314b;
+}
+.resource-icon::before {
+  content: "\e806";
+  font-family: "sandwich-pros";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  width: 1em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.resource {
+  padding: 0 21px;
+}
+.grid-group {
+  display: grid;
+  padding-bottom: 42px;
+  gap: 21px;
+  grid-template-columns: 1fr;
+}
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 40px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 1px solid #ccdbe5;
+  padding: 50px;
+}
+.title-para {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-para h2 {
+  font-size: 28px;
+  line-height: 28px;
+  font-family: "Franklin-bolder";
+}
+.paragraph {
+  font-family: "Franklin-Regular";
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.16px;
+}
+.resource-btn {
+  text-transform: uppercase;
+  font-family: "Franklin-bolder";
+  font-size: 18px;
+  line-height: 21px;
+  color: #0d9de5;
+}
+.arrow::before {
+  content: "\e803";
+  font-family: "sandwich-pros";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  letter-spacing: -0.16px;
+  width: 1em;
+  text-align: center;
+  line-height: 1em;
+  color: #01aefe;
+}
 footer {
   /* position: fixed; */
   background-color: #04314b;
