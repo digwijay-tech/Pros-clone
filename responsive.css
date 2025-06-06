@@ -563,7 +563,7 @@
     margin: 0 auto;
   }
   .customer-slider {
-    height: 517.375px;
+    height: 450.375px;
   }
   .features {
     margin: -21px 0;
@@ -593,6 +593,10 @@
   .service-item p {
     padding-bottom: 0px;
   }
+    .resource-card {
+    min-height: 461px ;
+  }
+ 
 }
 
 @media only screen and (min-width: 1440px) {
@@ -604,7 +608,8 @@
     width: 93%;
   }
   .carousel-dots {
-    margin-right: -19px;
+    gap: 18px;
+    margin-right: -31px;
   }
   .feature-carousel-alignment {
     margin-left: 43px;
