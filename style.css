@@ -16,28 +16,23 @@ body {
   background-color: #f5f9fc;
   letter-spacing: -0.16px;
 }
-.hover-chat {
+.hover-chat{
   position: fixed;
-  bottom: -11px;
-  right: -16px;
-  
-
+  box-shadow:  1px 4px 11px rgba(0, 0, 0, 0.2);
   z-index: 100;
+  bottom: 18px;
+  right: 13px;
+
+
 }
-.chat {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 0.3125rem;
-  transform: translate(-50%, -50%);
+.chat{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 56px;
-  width: 56px;
   background-color: #04314b;
-}
-.chat svg {
-  line-height: 1;
-  overflow: hidden;
+  border-radius:.3125rem ;
+  height: 62px;
+  width: 62px;
 }
 .fixed-navbar {
   position: sticky;
@@ -1001,3 +996,5 @@ footer {
   display: inline;
   padding-inline-start: 5px;
 }
+
+
