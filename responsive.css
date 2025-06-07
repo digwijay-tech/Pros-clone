@@ -588,6 +588,8 @@
     letter-spacing: -0.84px;
   }
   .section-two-main {
+    max-width: 1587px;
+    margin: 0 auto;
     gap: 19px;
   }
   .service-item p {
