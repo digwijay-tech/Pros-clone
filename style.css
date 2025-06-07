@@ -20,8 +20,8 @@ body {
   position: fixed;
   box-shadow:  1px 4px 11px rgba(0, 0, 0, 0.2);
   z-index: 100;
-  bottom: 18px;
-  right: 13px;
+  bottom: 17px;
+  right: 12px;
 
 
 }
@@ -31,8 +31,8 @@ body {
   justify-content: center;
   background-color: #04314b;
   border-radius:.3125rem ;
-  height: 62px;
-  width: 62px;
+  height: 56px;
+  width: 56px;
 }
 .fixed-navbar {
   position: sticky;
